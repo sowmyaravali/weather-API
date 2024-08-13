@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assests/weather-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+    flex-direction: column;
+    padding: 80px;
+
+}
+
+.weather-card {
+    width: 60vw;
+    height: 80vh;
+    /* background-image: url('./assests/weather-bg.jpg');
+    background-position: center;
+    background-size: cover; */
+    background-color: #d4eef45e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input {
+    width: 30%;
+    height: 50px;
+    border: 2px solid #34BAD7;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+.search button {
+    width: 65px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5px 2px;
+    border: none;
+    border-radius: 50px;
+}
+.search button:hover{
+    background-color:#34BAD7;
+    border:1px solid white;
+    color:white;
+}
+
+.temp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.temp img {
+    height: 150px;
+    width: 100px;
+}
+.temp h1{
+    color:white;
+}
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.cards {
+    display: flex;
+    gap: 4px;
+}
+
+.box1,
+.box2 ,
+.box3 {
+    height: 160px;
+    width: 180px;
+    background-color: hsla(192, 76%, 92%, 0.686);
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    font-size:18px;
+}
+
+
+.bxs-thermometer{
+    height:60px;
+    width: 90px;
+    
+
+}
